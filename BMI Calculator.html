@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>BMI Calaulator</title>
+    <link rel="stylesheet" href="BMI Calaulator.css">
+</head>
+<body>
+    <h1>BMI Number Calaulator</h1>
+    <br />
+    <br />
+    <div id="form-div">
+        <form-id="myform">
+            <div class="inputdiv">
+                <label>weight (kg)</label>
+                <input type="number"
+                placeholder="enter your weight in kg"
+                id="weight"
+            </div>
+            <div>
+                <label> Height (m)</label>
+                <input type="number"
+                placeholder="enter your Heiht"
+                id="height"/>
+            </div>
+        </div>
+
+        <div class="inputdiv">
+            <div>
+                <label>Number 1</label>
+                <input type="number" placeholder="Enter Number 1" id="num1"
+            </div>
+
+            <div>
+                <label>Number 2</label>
+                <input type="number" placeholder="Enter Number 2" id="num2"
+            </div>
+
+            <div>
+                <label>Number 2</label>
+                <input type="number" placeholder="Enter Number 3" id="num3"
+            </div>
+        </div>
+
+        <div class="inputdiv">
+            <input type="submit" value="Calculator BMI" id="BMItn"/>
+            <input type="submit" value="Calculator Average" id="averagebtn"
+        </div>
+    </form>
+
+    <div style="width: 450px;
+    height: 170px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 20px;">
+    <p
+    style="
+    font-weight: bold;
+    font-size:21px;
+    background-color: #142d4c;
+    color:white;
+    padding: 5px;
+    text-align: center;
+    "> Result details</p>
+   <p id="output"
+   style="font-size: 17px"; padding-left:  10px; padding-top: 10px;></p>
+</div>
+</div> 
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
